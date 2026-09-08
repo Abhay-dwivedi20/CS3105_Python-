@@ -74,10 +74,42 @@
 # words = sentence.split()
 # print("Number of words in the sentence is:", len(words))
 
-#11.
+##11.
 
-expression = '100*5+9+5**2'
+# expression = '100*5+9+5**2'
+# result = eval(expression)
+# print("Result:", result)
 
-result = eval(expression)
+# #12. 
 
-print("Result:", result)
+# import random
+# random_number = random.randint(1, 100)  
+# print("Random number between 1 and 100:", random_number)
+
+# #13.
+
+# random_date = random.randint(1, 31)  
+# print("Random number between 1 and 100:", random_date)
+
+#14.
+
+# import datetime
+# current_date = datetime.date.today()    
+# print("Current date:", current_date)
+
+
+#15.
+
+# x=int(10)
+# print("The value of expression is:",5*(x**2)+10*x+5)
+# x=int(15)
+# print("The value of expression is:",5*(x**2)+10*x+5)
+# x=int(20)
+# print("The value of expression is:",5*(x**2)+10*x+5)
+
+#16.
+
+# time_in_hours = int(input("Enter time in hours: "))
+# time_in_minutes = int(input("Enter time in minutes: "))
+# time_in_seconds = time_in_hours * 3600 + time_in_minutes * 60
+# print("Total time in seconds:", time_in_seconds)
